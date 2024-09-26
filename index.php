@@ -48,6 +48,12 @@
                                     <a class="nav-link" href="index.php?halaman=hari8">hari8</a>
                                 </li>
                                 <li class="nav-item">
+                                    <a class="nav-link" href="index.php?halaman=percabangan">percabangan</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="index.php?halaman=tahunkabisat">tahunkabisat</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                                 </li>
                             </ul>
@@ -85,6 +91,12 @@
                                             case "hari8":
                                                 include "harike8/index.php";
                                                 break;
+                                                case "percabangan":
+                                                    include "percabangan/index.php";
+                                                    break;
+                                                    case "tahunkabisat":
+                                                        include "tahunkabisat/index.php";
+                                                        break;
                 default:
                     include "welcome.php";
             }
